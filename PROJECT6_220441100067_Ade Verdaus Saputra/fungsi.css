@@ -1,0 +1,58 @@
+/* Style untuk form */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style untuk judul */
+  h2 {
+    text-align: center;
+  }
+  
+  /* Style untuk input dan label */
+  label,
+  input,
+  select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+
+  button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style untuk responsif */
+  @media (max-width: 600px) {
+    /* Style untuk form */
+    form {
+      max-width: 100%;
+      padding: 10px;
+    }
+  
+    /* Style untuk input dan label */
+    label,
+    input,
+    select {
+      margin-bottom: 5px;
+      font-size: 16px;
+    }
+  
+    /* Style untuk tombol hitung */
+    button[type="submit"] {
+      margin-top: 5px;
+      font-size: 16px;
+    }
+  }
+  
